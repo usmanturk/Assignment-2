@@ -1,0 +1,100 @@
+body {
+  background-color: wheat;
+  margin: 0%;
+  padding: 0%;
+  height: 100vh;
+}
+nav {
+  background-color: black;
+  border-bottom: 3px solid #8f1326;
+  display: flex;
+  flex-direction: column;
+  justify-items: left;
+  align-items: left;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 2;
+  padding: 15px 0 5px 0;
+}
+.container {
+  padding: 300px 50px 50px 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-weight: 400;
+}
+.img {
+  height: 300px;
+}
+p {
+  font-size: 25px;
+}
+.form {
+  margin: 30px;
+}
+#text {
+  height: 30px;
+  background-color: skyblue;
+  text-align: left;
+  box-sizing: border-box;
+}
+#btn {
+  background-color: navy;
+  color: white;
+  height: 30px;
+  width: 150px;
+  padding: 8px;
+  padding-bottom: 8px;
+  border: 2px solid black;
+  border-radius: 4px;
+  font-size: 1em;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 2s ease-in-out;
+  animation: 2s ease-in-out infinite;
+}
+#btn:hover {
+  background-color: white;
+  color: black;
+}
+.what-logo {
+  border-radius: 50px;
+  margin-top: 20px;
+  background-color: none;
+}
+.what-logo:hover {
+  cursor: pointer;
+  width: 40px;
+  height: 40px;
+}
+.face-logo {
+  background-color: transparent;
+  color: white;
+}
+.face-logo:hover {
+  cursor: pointer;
+  width: 40px;
+  height: 40px;
+}
+.insta-logo:hover {
+  cursor: pointer;
+  width: 40px;
+  height: 40px;
+}
+.linked-logo:hover {
+  cursor: pointer;
+  width: 40px;
+  height: 40px;
+}
+.twitter-logo:hover {
+  cursor: pointer;
+  width: 40px;
+  height: 40px;
+}
+.icon {
+  margin-top: 50px;
+}
